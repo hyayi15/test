@@ -1,6 +1,7 @@
 # Copyright 2021 VMware, Inc. All Rights Reserved.
 # SPDX-License-Identifier: Apache-2.0
 
+
 include ../common.mk
 
 IMG_DEFAULT_NAME := capabilities-controller-manager
@@ -16,6 +17,7 @@ else
 endif
 
 CRD_OPTIONS ?= "crd"
+
 
 all: manager
 
